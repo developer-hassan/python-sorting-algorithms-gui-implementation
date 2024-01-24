@@ -4,7 +4,6 @@ from datetime import datetime
 from generator import Generator
 from sorter import Sorter
 
-
 class GUI:
     '''
     Front-end of application

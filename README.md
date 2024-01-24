@@ -1,29 +1,27 @@
-# Sorting Algorithms Implementation Using Python GUI
+# Python GUI Implementation of Sorting Algorithms
+
+## Overview
+This project is a comprehensive implementation of various sorting algorithms, namely Insertion Sort, Heap Sort, Quick Sort, and Counting Sort. The primary objective is to analyze the operational structure of these algorithms and compare their execution times. The project leverages the Python GUI framework, Tkinter, to enhance the visualization of inputs and results.
 
 ## Introduction
-
-This project is being developed to implement different sorting algorithms (i.e., Insertion sort, Heap Sort, Quick Sort, Counting Sort) to analyze their working structure and to test their running time differences. It is also using a python GUI using tkinter framework to better visualize the inputs and results. Using tkinter, a UI is developed which will take necessary inputs about the array to be sorted and will then generate the array based on those inputs. As a result, the sorted array will be displayed along with the time taken by the sorting algorithm (chosen by the user) to sort that array. Our generation system can work with different input sizes.
+The project incorporates a user interface developed with Tkinter, which accepts necessary inputs about the array to be sorted and generates the array accordingly. The sorted array is subsequently displayed, along with the time taken by the user-selected sorting algorithm to sort the array. The array generation system is designed to handle different input sizes.
 
 ## Tools and Technologies
+The project utilizes the following tools and technologies:
+* **Visual Studio Code**: Employed as the code editor.
+* **Python**: Used as the high-level programming language for development.
+* **Tkinter**: Serves as the framework for GUI implementation.
 
-* Visual Studio Code, as a code editor
-* Python, as a high-level programming language
-* Tkinter, as a framework for GUI implementation
+## Project Structure
+The project is structured into four distinct sections:
+* **Generator Section**: Contains the code related to the generation of random arrays.
+* **Sorter Section**: Houses the complete implementation of all four sorting algorithms.
+* **GUI Section**: Integrates the functionalities of the Generator and Sorter sections, and contains the code for the entire frontend of the project.
+* **Main Section**: Invokes instances for all other sections.
 
-## Project Division
-
-The whole project is divided into 4 portions:
-
-* Generator Portion which contains the code related to random array generation.
-* Sorter portion which contains the complete implementation of all four sorting algorithms
-* GUI portion which merges the functionality of the above two portions as well as contains the code for the whole front end of the project.
-* Main Portion which calls the instances for all other portions.
-
-## Main Features
-
-This project comprises of the following features:
-
-* Random array generation of user defined sizes, between min and max parameter specified by user so you don’t have to type 10,000 elements
-* Sorting in 4 different algorithms – Insertion Sort, Heap Sort, Quick Sort, and Counting Sort
-* Ability to track the time taken for sorting by different algorithms Helps in analyzing and comparing the algorithms performance
-* Input validation and error checking
+## Key Features
+The project offers the following features:
+* Generation of random arrays of user-defined sizes, within the minimum and maximum parameters specified by the user, eliminating the need to manually input large numbers of elements.
+* Implementation of four different sorting algorithms – Insertion Sort, Heap Sort, Quick Sort, and Counting Sort.
+* Capability to track the time taken for sorting by different algorithms, aiding in the analysis and comparison of algorithm performance.
+* Input validation and error checking to ensure data integrity and reliability.
